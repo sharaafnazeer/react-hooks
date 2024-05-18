@@ -6,11 +6,12 @@ import UseRef from './react-hooks/useRef';
 import UseID from './react-hooks/useId';
 import UseImperativeHandle from './react-hooks/useImperativeHandle';
 import UseMemo from './react-hooks/useMemo';
+import UseCallBack from './react-hooks/useCallback';
 
 function App() {
   return (
     <div className="App">
-      <UseMemo></UseMemo>
+      <UseCallBack></UseCallBack>
     </div>
   );
 }
@@ -24,7 +25,7 @@ function App() {
 // 4. useRef *
 // 5. useId *
 // 6. forwardRef & useImperativeHandle *
-// 7. useMemo
-// 8. useCallback
+// 7. useMemo *
+// 8. memo & useCallback *
 
 export default App;
